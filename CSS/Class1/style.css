@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blueviolet
+}
+
+p {
+    color: burlywood;
+    text-align: right;
+}
+
+/* selector{
+    property:value
+} declaration block */
+.highlight {
+    color: rgb(38, 98, 210);
+    background-color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+
+#name {
+    color: teal;
+    background-color: black;
+    font-size: 10px;
+    text-align: left;
+}
+
+body {
+    background-color: rgb(198, 239, 253);
+}
+.card{
+    background-color:antiquewhite;
+    text-align:center;
+}
+.card h2{
+    color: rgb(38, 98, 210);
+}
+.card-description{
+    color: rgb(210, 38, 72);
+    font-size: 20px;
+}
+button{
+    background-color :black;
+color: rgb(115, 155, 199);
+
+}
