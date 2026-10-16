@@ -1,0 +1,79 @@
+.box{
+    position:static;
+    background-color: lightgreen;
+    border:2px solid green;
+    padding: 20px;
+    margin: 20px;
+    width:200px;
+}
+.relativebox{
+    position:relative;
+    left: 30px;
+    top:10px;
+}
+.productcard{
+    position:relative;
+    width: 300px;
+    padding:30px 20px;
+    margin:0 auto;
+    background-color: #3a8f8f;
+    color: white;
+    border-radius: 10px;
+    border:1px solid #ddd
+}
+.salebadge{
+    position: absolute;
+    top:10px;
+    right:10px;
+    padding:5px 10px;
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+
+
+}
+img{
+    width: 100%;
+}
+.helpbtn{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 12px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.pagecontent{
+    height: 220px;
+    overflow: auto;
+    border: 1px solid #121010;
+
+}
+.stickyheading{
+    position: sticky;
+    top: 0;
+    background-color: lightsalmon;
+    padding: 12px;
+    margin: 0;
+}
+.layer{
+    position: relative;
+    width: 180px;
+    height: 100px;
+    padding: 15px;
+    color: white;
+}
+.layerone{
+    background-color: crimson;
+    z-index: 1;
+
+}
+.layertwo{
+    background-color: royalblue;
+    z-index: 2;
+    top: -50px;
+left: 40px;
+}
