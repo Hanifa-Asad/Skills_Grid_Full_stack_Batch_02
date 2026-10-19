@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(4, 50, 50);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+
+}
+.card{
+    background-color: rgb(59, 12, 59);
+    color: wheat;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+
+   
+}
+.card button{
+    background-color: teal;
+    color: white;
+     border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+
+}
