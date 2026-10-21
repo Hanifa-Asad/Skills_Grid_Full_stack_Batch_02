@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a8a0d6
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #4d3bb4;
+    color: white;
+    padding: 18px 10px;
+}
+.logo{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    grid-auto-flow: 24px;
+
+}
+.navlinks a{
+    color: white;
+    text-decoration: none;
+
+}
+.profilebtn{
+    align-self: center;
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-weight: bold;
+    
+}
+.dashboard{
+    max-width: 1200px;
+    margin: 35px auto;
+    padding: 0 20px;
+
+}
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+
+
+}
+.welcome p{
+    margin-top: 8px;
+
+}
+button{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    padding: 12px 18px;
+      background-color: #4d3bb4;
+    color: white;
+
+
+}
+/* .addbtn{
+    background-color: #4d3bb4;
+    color: white;
+} */
+ .stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 26px;
+ }
+ .statcard{
+    background-color: white;
+    border-radius: 12px;
+    padding: 22px;
+    box-shadow: 0 3px 10px #0000000a;
+    flex: 1 1 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }
