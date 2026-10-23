@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+      <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
+    <div class="container">
     <header class="navbar">
-<h2 class="logo">TaskFlow</h2>
+        
+<h2 class="logo animate__animated  animate__slideInDown"> <i class="fa-solid fa-bars-progress" style="color: white;"></i>TaskFlow</h2>
 
 <nav class="navlinks">
     <a href="#">Dashboard</a>
@@ -32,9 +39,23 @@
 
         <section class="stats">
             <article class="statcard">
-                <span>Total Tasks</span>
+                <span class="bold">Total Tasks</span>
+                <h2>12</h2>
+                <p class="bold">All Your Tasks</p>
+            </article>
+            <article class="statcard featured">
+
+                <span class="bold">In Progress</span>
+                <h2>4</h2>
+                <p class="bold">Currently Working</p>
+        
+            </article>
+            <article class="statcard">
+
+                <span class="bold">Completed</span>
                 <h2>8</h2>
-                <p>Great Progress</p>
+                <p class="bold">Great Progress</p>
+        
             </article>
         </section>
 
@@ -47,14 +68,23 @@
                         <h3>Complete CSS Project</h3>
                         <p>practice Flexbox Properties</p>
                     </div>
-                    <spam class="statusprogress">In Progress</spam>
+                    <spam class="status progress">In Progress</spam>
+                </article>
+                  <article class="task">
+                    <div class="taskinfo">
+                        <h3>Review HTML</h3>
+                        <p>Revise Semantic Elements</p>
+                    </div>
+                    <span class="status complete">
+                        completed
+                    </span>
                 </article>
                 <article class="task">
                     <div class="taskinfo">
                         <h3>Review HTML</h3>
                         <p>Revise Semantic Elements</p>
                     </div>
-                    <span class="statuspending">
+                    <span class="status pending">
                         Pending
                     </span>
                 </article>
@@ -69,5 +99,6 @@
             </aside>
         </section>
     </main>
+    </div>
 </body>
 </html>
