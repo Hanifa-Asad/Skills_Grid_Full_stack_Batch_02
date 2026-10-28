@@ -1,0 +1,53 @@
+@font-face{
+    font-family: "myfont";
+    src: url(Cookie-Regular.ttf);
+}
+
+body{
+    /* font-family: "Cookie", cursive; */
+    font-size: 40px;
+    font-family: "myfont", cursive;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+h1{
+    font-size: 50px;
+}
+.box{
+    width: 50%;
+    background-color: crimson;
+     height: 400px;
+}
+@media (max-width:900px){
+    .box{
+        background-color: darkmagenta;
+        width: 70%;
+    }
+}
+
+@media (max-width:600px) {
+    h1{
+        font-size: 23px;
+    }
+    .box{
+        background-color: teal;
+        width: 25%;
+       
+    }
+}
+.gridcontainer{
+    display: grid;
+    grid-template-columns: 300px 1fr 2fr;
+    gap: 15px;
+    grid-template-rows: 300px 2fr 3fr auto;
+       border: 1px silid black;
+ 
+
+}
+.item{
+       border: 1px solid black;
+
+}
